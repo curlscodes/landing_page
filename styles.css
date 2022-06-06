@@ -1,0 +1,139 @@
+body {
+    display: block;
+    width: 100%;
+    height:auto;
+    margin: 0 auto;
+}
+
+.bodice-head {
+    background-color: rgb(29, 35, 49);
+    color: white;
+    padding-bottom: 48px;
+    margin-bottom: 48px;
+
+}
+
+.bodice5 {
+    max-width: 720px;
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 600px;
+    margin: auto;
+}
+
+.head {
+    padding-top: 48px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-title {
+    margin-bottom: 24px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.info-boxes {
+    display: flex;
+    gap: 32px;
+    margin-bottom: 0px;
+    
+}
+
+.info-square {
+    border: 2px solid rgb(58, 113, 230);;
+    border-radius: 8px;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 0px;
+    display: flex ;
+    flex-direction: row;
+    
+}
+
+.info-subtext {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    gap: 16px;
+}
+
+.quote-text {
+    max-width: 620px;
+    margin: auto;
+    color: rgb(62, 62, 62);
+}
+
+.quote {
+    background-color: lightgray;
+    margin-top: 48px;
+    margin-bottom: 48px;
+    padding: 48px;
+    font-size: 24px;
+}
+
+.quote-attr {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 700;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(58, 113, 230);
+    padding: 10px 100px 10px 100px;
+    color: white;
+    margin-bottom: 72px;
+    border-radius: 16px;
+}
+
+.button1 {
+    background-color:  rgb(58, 113, 230);
+    color: white;
+    border: none;
+    padding: 8px 24px;
+    border-radius: 8px;
+}
+.button2 {
+    background-color:  rgb(58, 113, 230);
+    color: white;
+    border: 1px solid white;
+    padding: 8px 24px;
+    border-radius: 8px;
+}
+
+.actual-footer {
+    background-color: rgb(6, 30, 63);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+}
+
+img {
+    width: 200px;
+    height: auto;
+}
